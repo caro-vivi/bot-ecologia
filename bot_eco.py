@@ -16,4 +16,4 @@ async def on_message(message):
         await message.channel.send(video_url)
 
     
-# "scrivi il tuo token"
+bot.run( "scrivi il tuo token" )

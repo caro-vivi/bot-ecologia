@@ -14,5 +14,11 @@ async def riciclo_plastica(ctx):
 @bot.command()
 async def riciclo_vetro(ctx):
     await ctx.send("Ecco un vidio che ti spiega come si ricicla l'alluminio:'https://youtu.be/QSQa1bZ_hGQ'")
+@bot.command()
+async def insegnamenti(ctx):
+    await ctx.send("1. compra solo l'essenziale")
+    await ctx.send("2. Se possiedi degli oggetti rotti, cerca di ripararli prima di buttarli")
+    await ctx.send("3. usa il dettersivo alla spina")
+    await ctx.send("4. cerca di comprare il minor numero di oggetti in plastica")
     
 bot.run( "scrivi il tuo token" )

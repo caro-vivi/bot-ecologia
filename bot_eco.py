@@ -27,6 +27,6 @@ async def riciclo_pneumatici(ctx):
 async def insegnamenti(ctx):
     await ctx.send("1. compra solo l'essenziale")
     await ctx.send("2. Se possiedi degli oggetti rotti, cerca di ripararli prima di buttarli")
-    await ctx.send("3. usa il dettersivo alla spina")
+    await ctx.send("3. usa il detersivo alla spina")
     await ctx.send("4. cerca di comprare il minor numero di oggetti in plastica")
 bot.run( "scrivi il tuo token" )
